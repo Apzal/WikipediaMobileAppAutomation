@@ -1,0 +1,219 @@
+[INFO ] 2025-01-03 23:09:06.985 [main] Hooks - ---------*************Test Execution Started**********************--------------
+[INFO ] 2025-01-03 23:09:07.212 [TestNG-PoolService-1] Hooks - Execution started for scenario:Task2- Verify search functionality
+[INFO ] 2025-01-03 23:09:31.299 [TestNG-PoolService-1] BasePage - Located Element, Locator Used : [[AndroidDriver:  on ANDROID (eb958730-de74-4729-8187-0b78217e92d9)] -> xpath: //android.widget.Button[@text='OK']]
+[INFO ] 2025-01-03 23:09:31.496 [TestNG-PoolService-1] BasePage - Clicked Element, Locator Used : By.xpath: //android.widget.Button[@text='OK']
+[INFO ] 2025-01-03 23:09:32.725 [TestNG-PoolService-1] BasePage - Located Element, Locator Used : [[AndroidDriver:  on ANDROID (eb958730-de74-4729-8187-0b78217e92d9)] -> xpath: //android.view.View[@resource-id='org.wikipedia.alpha:id/fragment_feed_header']]
+[INFO ] 2025-01-03 23:09:32.863 [TestNG-PoolService-1] BasePage - Clicked Element, Locator Used : By.xpath: //android.view.View[@resource-id='org.wikipedia.alpha:id/fragment_feed_header']
+[INFO ] 2025-01-03 23:09:34.974 [TestNG-PoolService-1] BasePage - Located Element, Locator Used : [[AndroidDriver:  on ANDROID (eb958730-de74-4729-8187-0b78217e92d9)] -> id: org.wikipedia.alpha:id/search_src_text]
+[INFO ] 2025-01-03 23:09:36.427 [TestNG-PoolService-1] BasePage - Retrieve Multiple Elements, Locator Used : By.xpath: //android.widget.TextView[contains(@text, 'New York')]
+[INFO ] 2025-01-03 23:09:40.478 [TestNG-PoolService-1] BasePage - Located Element, Locator Used : [[AndroidDriver:  on ANDROID (eb958730-de74-4729-8187-0b78217e92d9)] -> id: org.wikipedia.alpha:id/search_close_btn]
+[INFO ] 2025-01-03 23:09:42.471 [TestNG-PoolService-1] BasePage - Located Element, Locator Used : [[AndroidDriver:  on ANDROID (eb958730-de74-4729-8187-0b78217e92d9)] -> xpath: //android.widget.TextView[@text='Search Wikipedia']]
+[INFO ] 2025-01-03 23:09:45.360 [TestNG-PoolService-1] Hooks - Execution completed for scenario:Task2- Verify search functionality,Status:Pass
+[INFO ] 2025-01-03 23:09:45.371 [main] Hooks - Test Execution Finished
+[INFO ] 2025-01-03 23:09:45.371 [main] Hooks - ---------***********************************--------------
+[INFO ] 2025-01-03 23:41:23.042 [main] Hooks - ---------*************Test Execution Started**********************--------------
+[INFO ] 2025-01-03 23:41:23.257 [TestNG-PoolService-1] Hooks - Execution started for scenario:Task3- Toggle off all settings
+[INFO ] 2025-01-03 23:41:37.437 [TestNG-PoolService-1] BasePage - Located Element, Locator Used : [[AndroidDriver:  on ANDROID (ed5f3037-ce4d-4ade-bc0e-dde0c5d68ad7)] -> xpath: //android.widget.Button[@text='OK']]
+[INFO ] 2025-01-03 23:41:37.597 [TestNG-PoolService-1] BasePage - Clicked Element, Locator Used : By.xpath: //android.widget.Button[@text='OK']
+[INFO ] 2025-01-03 23:41:38.302 [TestNG-PoolService-1] BasePage - Located Element, Locator Used : [[AndroidDriver:  on ANDROID (ed5f3037-ce4d-4ade-bc0e-dde0c5d68ad7)] -> id: org.wikipedia.alpha:id/menu_overflow_button]
+[INFO ] 2025-01-03 23:41:38.399 [TestNG-PoolService-1] BasePage - Clicked Element, Locator Used : By.id: org.wikipedia.alpha:id/menu_overflow_button
+[INFO ] 2025-01-03 23:42:41.938 [main] Hooks - ---------*************Test Execution Started**********************--------------
+[INFO ] 2025-01-03 23:42:42.132 [TestNG-PoolService-1] Hooks - Execution started for scenario:Task3- Toggle off all settings
+[INFO ] 2025-01-03 23:42:56.913 [TestNG-PoolService-1] BasePage - Located Element, Locator Used : [[AndroidDriver:  on ANDROID (8d676808-6057-41da-9614-4008827ca079)] -> xpath: //android.widget.Button[@text='OK']]
+[INFO ] 2025-01-03 23:42:57.048 [TestNG-PoolService-1] BasePage - Clicked Element, Locator Used : By.xpath: //android.widget.Button[@text='OK']
+[INFO ] 2025-01-03 23:42:57.496 [TestNG-PoolService-1] BasePage - Located Element, Locator Used : [[AndroidDriver:  on ANDROID (8d676808-6057-41da-9614-4008827ca079)] -> id: org.wikipedia.alpha:id/menu_overflow_button]
+[INFO ] 2025-01-03 23:42:57.771 [TestNG-PoolService-1] BasePage - Clicked Element, Locator Used : By.id: org.wikipedia.alpha:id/menu_overflow_button
+[INFO ] 2025-01-03 23:43:27.799 [TestNG-PoolService-1] BasePage - Click element failed,Retrying click, Attempt left:2, Locator Used : By.xpath: android.widget.TextView[@text='Settings'],Exception :Expected condition failed: waiting for presence of element located by: By.xpath: android.widget.TextView[@text='Settings'] (tried for 30 second(s) with 500 milliseconds interval)
+[INFO ] 2025-01-03 23:43:47.563 [TestNG-PoolService-1] BasePage - Click element failed,Retrying click, Attempt left:1, Locator Used : By.xpath: android.widget.TextView[@text='Settings'],Exception :An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [8d676808-6057-41da-9614-4008827ca079, findElement {value=android.widget.TextView[@text='Settings'], using=xpath}]
+Capabilities {appium:app: D:\Work\assignment\soar\tes..., appium:appActivity: org.wikipedia.main.MainActi..., appium:appPackage: org.wikipedia.alpha, appium:automationName: UIAutomator2, appium:databaseEnabled: false, appium:desired: {app: D:\Work\assignment\soar\tes..., automationName: UIAutomator2, platformName: ANDROID}, appium:deviceApiLevel: 35, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_x86_64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2400, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.625, appium:platformVersion: 15, appium:statBarHeight: 63, appium:takesScreenshot: true, appium:viewportRect: {height: 2337, left: 0, top: 63, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 8d676808-6057-41da-9614-4008827ca079
+[INFO ] 2025-01-03 23:43:49.575 [TestNG-PoolService-1] BasePage - Click element failed, Locator Used : By.xpath: android.widget.TextView[@text='Settings'],Exception :An unknown server-side error occurred while processing the command. Original error: 'POST /element' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [8d676808-6057-41da-9614-4008827ca079, findElement {value=android.widget.TextView[@text='Settings'], using=xpath}]
+Capabilities {appium:app: D:\Work\assignment\soar\tes..., appium:appActivity: org.wikipedia.main.MainActi..., appium:appPackage: org.wikipedia.alpha, appium:automationName: UIAutomator2, appium:databaseEnabled: false, appium:desired: {app: D:\Work\assignment\soar\tes..., automationName: UIAutomator2, platformName: ANDROID}, appium:deviceApiLevel: 35, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_x86_64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2400, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.625, appium:platformVersion: 15, appium:statBarHeight: 63, appium:takesScreenshot: true, appium:viewportRect: {height: 2337, left: 0, top: 63, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 8d676808-6057-41da-9614-4008827ca079
+[INFO ] 2025-01-03 23:43:49.625 [main] Hooks - Test Execution Finished
+[INFO ] 2025-01-03 23:43:49.625 [main] Hooks - ---------***********************************--------------
+[INFO ] 2025-01-03 23:45:14.918 [main] Hooks - ---------*************Test Execution Started**********************--------------
+[INFO ] 2025-01-03 23:45:15.108 [TestNG-PoolService-1] Hooks - Execution started for scenario:Task3- Toggle off all settings
+[INFO ] 2025-01-03 23:45:27.524 [TestNG-PoolService-1] BasePage - Located Element, Locator Used : [[AndroidDriver:  on ANDROID (3f327fd8-67f7-4cbf-85ab-017428f047fa)] -> xpath: //android.widget.Button[@text='OK']]
+[INFO ] 2025-01-03 23:45:27.679 [TestNG-PoolService-1] BasePage - Clicked Element, Locator Used : By.xpath: //android.widget.Button[@text='OK']
+[INFO ] 2025-01-03 23:45:28.230 [TestNG-PoolService-1] BasePage - Located Element, Locator Used : [[AndroidDriver:  on ANDROID (3f327fd8-67f7-4cbf-85ab-017428f047fa)] -> id: org.wikipedia.alpha:id/menu_overflow_button]
+[INFO ] 2025-01-03 23:45:28.431 [TestNG-PoolService-1] BasePage - Clicked Element, Locator Used : By.id: org.wikipedia.alpha:id/menu_overflow_button
+[INFO ] 2025-01-03 23:45:58.525 [TestNG-PoolService-1] BasePage - Click element failed,Retrying click, Attempt left:2, Locator Used : By.xpath: android.widget.TextView[@text='Settings'],Exception :Expected condition failed: waiting for presence of element located by: By.xpath: android.widget.TextView[@text='Settings'] (tried for 30 second(s) with 500 milliseconds interval)
+[INFO ] 2025-01-03 23:46:30.583 [TestNG-PoolService-1] BasePage - Click element failed,Retrying click, Attempt left:1, Locator Used : By.xpath: android.widget.TextView[@text='Settings'],Exception :Expected condition failed: waiting for presence of element located by: By.xpath: android.widget.TextView[@text='Settings'] (tried for 30 second(s) with 500 milliseconds interval)
+[INFO ] 2025-01-03 23:47:02.888 [TestNG-PoolService-1] BasePage - Click element failed, Locator Used : By.xpath: android.widget.TextView[@text='Settings'],Exception :Expected condition failed: waiting for presence of element located by: By.xpath: android.widget.TextView[@text='Settings'] (tried for 30 second(s) with 500 milliseconds interval)
+[INFO ] 2025-01-03 23:47:04.078 [TestNG-PoolService-1] Hooks - Execution completed for scenario:Task3- Toggle off all settings,Status:Fail
+[INFO ] 2025-01-03 23:47:04.091 [main] Hooks - Test Execution Finished
+[INFO ] 2025-01-03 23:47:04.091 [main] Hooks - ---------***********************************--------------
+[INFO ] 2025-01-03 23:47:27.883 [main] Hooks - ---------*************Test Execution Started**********************--------------
+[INFO ] 2025-01-03 23:47:28.070 [TestNG-PoolService-1] Hooks - Execution started for scenario:Task3- Toggle off all settings
+[INFO ] 2025-01-03 23:47:39.564 [TestNG-PoolService-1] BasePage - Located Element, Locator Used : [[AndroidDriver:  on ANDROID (20f67273-01b7-46f7-bb38-03230d1e5280)] -> xpath: //android.widget.Button[@text='OK']]
+[INFO ] 2025-01-03 23:47:39.660 [TestNG-PoolService-1] BasePage - Clicked Element, Locator Used : By.xpath: //android.widget.Button[@text='OK']
+[INFO ] 2025-01-03 23:47:40.376 [TestNG-PoolService-1] BasePage - Located Element, Locator Used : [[AndroidDriver:  on ANDROID (20f67273-01b7-46f7-bb38-03230d1e5280)] -> id: org.wikipedia.alpha:id/menu_overflow_button]
+[INFO ] 2025-01-03 23:47:40.465 [TestNG-PoolService-1] BasePage - Clicked Element, Locator Used : By.id: org.wikipedia.alpha:id/menu_overflow_button
+[INFO ] 2025-01-03 23:47:40.649 [TestNG-PoolService-1] BasePage - Located Element, Locator Used : [[AndroidDriver:  on ANDROID (20f67273-01b7-46f7-bb38-03230d1e5280)] -> xpath: //android.widget.TextView[@text='Settings']]
+[INFO ] 2025-01-03 23:47:41.491 [TestNG-PoolService-1] BasePage - Clicked Element, Locator Used : By.xpath: //android.widget.TextView[@text='Settings']
+[INFO ] 2025-01-03 23:47:43.302 [TestNG-PoolService-1] BasePage - Located Element, Locator Used : [[AndroidDriver:  on ANDROID (20f67273-01b7-46f7-bb38-03230d1e5280)] -> xpath: //android.widget.TextView[@text='Show images']/../..//android.widget.Switch]
+[INFO ] 2025-01-03 23:47:43.417 [TestNG-PoolService-1] BasePage - Clicked Element, Locator Used : By.xpath: //android.widget.TextView[@text='Show images']/../..//android.widget.Switch
+[INFO ] 2025-01-03 23:47:43.697 [TestNG-PoolService-1] BasePage - Located Element, Locator Used : [[AndroidDriver:  on ANDROID (20f67273-01b7-46f7-bb38-03230d1e5280)] -> xpath: //android.widget.TextView[@text='Show images']/../..//android.widget.Switch]
+[INFO ] 2025-01-03 23:47:44.267 [TestNG-PoolService-1] BasePage - Located Element, Locator Used : [[AndroidDriver:  on ANDROID (20f67273-01b7-46f7-bb38-03230d1e5280)] -> xpath: //android.widget.TextView[@text='Show images']/../..//android.widget.Switch]
+[INFO ] 2025-01-03 23:47:44.365 [TestNG-PoolService-1] BasePage - Clicked Element, Locator Used : By.xpath: //android.widget.TextView[@text='Show images']/../..//android.widget.Switch
+[INFO ] 2025-01-03 23:47:45.069 [TestNG-PoolService-1] BasePage - Located Element, Locator Used : [[AndroidDriver:  on ANDROID (20f67273-01b7-46f7-bb38-03230d1e5280)] -> xpath: //android.widget.TextView[@text='Show images']/../..//android.widget.Switch]
+[INFO ] 2025-01-03 23:47:45.293 [TestNG-PoolService-1] BasePage - Located Element, Locator Used : [[AndroidDriver:  on ANDROID (20f67273-01b7-46f7-bb38-03230d1e5280)] -> xpath: //android.widget.TextView[@text='Show images']/../..//android.widget.Switch]
+[INFO ] 2025-01-03 23:47:45.391 [TestNG-PoolService-1] BasePage - Clicked Element, Locator Used : By.xpath: //android.widget.TextView[@text='Show images']/../..//android.widget.Switch
+[INFO ] 2025-01-03 23:47:45.598 [TestNG-PoolService-1] BasePage - Located Element, Locator Used : [[AndroidDriver:  on ANDROID (20f67273-01b7-46f7-bb38-03230d1e5280)] -> xpath: //android.widget.TextView[@text='Show images']/../..//android.widget.Switch]
+[INFO ] 2025-01-03 23:47:46.203 [TestNG-PoolService-1] BasePage - Located Element, Locator Used : [[AndroidDriver:  on ANDROID (20f67273-01b7-46f7-bb38-03230d1e5280)] -> xpath: //android.widget.TextView[@text='Show images']/../..//android.widget.Switch]
+[INFO ] 2025-01-03 23:47:46.334 [TestNG-PoolService-1] BasePage - Clicked Element, Locator Used : By.xpath: //android.widget.TextView[@text='Show images']/../..//android.widget.Switch
+[INFO ] 2025-01-03 23:47:46.542 [TestNG-PoolService-1] BasePage - Located Element, Locator Used : [[AndroidDriver:  on ANDROID (20f67273-01b7-46f7-bb38-03230d1e5280)] -> xpath: //android.widget.TextView[@text='Show images']/../..//android.widget.Switch]
+[INFO ] 2025-01-03 23:47:47.908 [TestNG-PoolService-1] Hooks - Execution completed for scenario:Task3- Toggle off all settings,Status:Pass
+[INFO ] 2025-01-03 23:47:47.920 [main] Hooks - Test Execution Finished
+[INFO ] 2025-01-03 23:47:47.920 [main] Hooks - ---------***********************************--------------
+[INFO ] 2025-01-03 23:56:52.555 [main] Hooks - ---------*************Test Execution Started**********************--------------
+[INFO ] 2025-01-03 23:56:52.769 [TestNG-PoolService-1] Hooks - Execution started for scenario:Task3- Toggle off all settings
+[INFO ] 2025-01-03 23:57:08.650 [TestNG-PoolService-1] BasePage - Located Element, Locator Used : [[AndroidDriver:  on ANDROID (4a471b70-c703-40d1-ab02-38c09d402409)] -> xpath: //android.widget.Button[@text='OK']]
+[INFO ] 2025-01-03 23:57:08.780 [TestNG-PoolService-1] BasePage - Clicked Element, Locator Used : By.xpath: //android.widget.Button[@text='OK']
+[INFO ] 2025-01-03 23:57:09.332 [TestNG-PoolService-1] BasePage - Located Element, Locator Used : [[AndroidDriver:  on ANDROID (4a471b70-c703-40d1-ab02-38c09d402409)] -> id: org.wikipedia.alpha:id/menu_overflow_button]
+[INFO ] 2025-01-03 23:57:09.547 [TestNG-PoolService-1] BasePage - Clicked Element, Locator Used : By.id: org.wikipedia.alpha:id/menu_overflow_button
+[INFO ] 2025-01-03 23:57:09.976 [TestNG-PoolService-1] BasePage - Located Element, Locator Used : [[AndroidDriver:  on ANDROID (4a471b70-c703-40d1-ab02-38c09d402409)] -> xpath: //android.widget.TextView[@text='Settings']]
+[INFO ] 2025-01-03 23:57:10.598 [TestNG-PoolService-1] BasePage - Clicked Element, Locator Used : By.xpath: //android.widget.TextView[@text='Settings']
+[INFO ] 2025-01-03 23:57:12.343 [TestNG-PoolService-1] BasePage - Located Element, Locator Used : [[AndroidDriver:  on ANDROID (4a471b70-c703-40d1-ab02-38c09d402409)] -> xpath: //android.widget.TextView[@text='Show images']/../..//android.widget.Switch]
+[INFO ] 2025-01-03 23:57:12.437 [TestNG-PoolService-1] BasePage - Clicked Element, Locator Used : By.xpath: //android.widget.TextView[@text='Show images']/../..//android.widget.Switch
+[INFO ] 2025-01-03 23:57:12.735 [TestNG-PoolService-1] BasePage - Located Element, Locator Used : [[AndroidDriver:  on ANDROID (4a471b70-c703-40d1-ab02-38c09d402409)] -> xpath: //android.widget.TextView[@text='Show images']/../..//android.widget.Switch]
+[INFO ] 2025-01-03 23:57:13.265 [TestNG-PoolService-1] BasePage - Located Element, Locator Used : [[AndroidDriver:  on ANDROID (4a471b70-c703-40d1-ab02-38c09d402409)] -> xpath: //android.widget.TextView[@text='Show link previews']/../..//android.widget.Switch]
+[INFO ] 2025-01-03 23:57:13.368 [TestNG-PoolService-1] BasePage - Clicked Element, Locator Used : By.xpath: //android.widget.TextView[@text='Show link previews']/../..//android.widget.Switch
+[INFO ] 2025-01-03 23:57:13.566 [TestNG-PoolService-1] BasePage - Located Element, Locator Used : [[AndroidDriver:  on ANDROID (4a471b70-c703-40d1-ab02-38c09d402409)] -> xpath: //android.widget.TextView[@text='Show link previews']/../..//android.widget.Switch]
+[INFO ] 2025-01-03 23:57:14.129 [TestNG-PoolService-1] BasePage - Located Element, Locator Used : [[AndroidDriver:  on ANDROID (4a471b70-c703-40d1-ab02-38c09d402409)] -> xpath: //android.widget.TextView[@text='Send usage reports']/../..//android.widget.Switch]
+[INFO ] 2025-01-03 23:57:14.217 [TestNG-PoolService-1] BasePage - Clicked Element, Locator Used : By.xpath: //android.widget.TextView[@text='Send usage reports']/../..//android.widget.Switch
+[INFO ] 2025-01-03 23:57:14.409 [TestNG-PoolService-1] BasePage - Located Element, Locator Used : [[AndroidDriver:  on ANDROID (4a471b70-c703-40d1-ab02-38c09d402409)] -> xpath: //android.widget.TextView[@text='Send usage reports']/../..//android.widget.Switch]
+[INFO ] 2025-01-03 23:57:15.117 [TestNG-PoolService-1] BasePage - Located Element, Locator Used : [[AndroidDriver:  on ANDROID (4a471b70-c703-40d1-ab02-38c09d402409)] -> xpath: //android.widget.TextView[@text='Send crash reports']/../..//android.widget.Switch]
+[INFO ] 2025-01-03 23:57:15.212 [TestNG-PoolService-1] BasePage - Clicked Element, Locator Used : By.xpath: //android.widget.TextView[@text='Send crash reports']/../..//android.widget.Switch
+[INFO ] 2025-01-03 23:57:15.450 [TestNG-PoolService-1] BasePage - Located Element, Locator Used : [[AndroidDriver:  on ANDROID (4a471b70-c703-40d1-ab02-38c09d402409)] -> xpath: //android.widget.TextView[@text='Send crash reports']/../..//android.widget.Switch]
+[INFO ] 2025-01-03 23:57:15.870 [TestNG-PoolService-1] BasePage - Located Element, Locator Used : [[AndroidDriver:  on ANDROID (4a471b70-c703-40d1-ab02-38c09d402409)] -> accessibility id: Navigate up]
+[INFO ] 2025-01-03 23:57:15.981 [TestNG-PoolService-1] BasePage - Clicked Element, Locator Used : AppiumBy.accessibilityId: Navigate up
+[INFO ] 2025-01-03 23:57:17.454 [TestNG-PoolService-1] BasePage - Located Element, Locator Used : [[AndroidDriver:  on ANDROID (4a471b70-c703-40d1-ab02-38c09d402409)] -> xpath: //android.widget.TextView[@text='Search Wikipedia']]
+[INFO ] 2025-01-03 23:57:18.587 [TestNG-PoolService-1] Hooks - Execution completed for scenario:Task3- Toggle off all settings,Status:Pass
+[INFO ] 2025-01-03 23:57:18.598 [main] Hooks - Test Execution Finished
+[INFO ] 2025-01-03 23:57:18.598 [main] Hooks - ---------***********************************--------------
+[INFO ] 2025-01-03 23:57:50.668 [main] Hooks - ---------*************Test Execution Started**********************--------------
+[INFO ] 2025-01-03 23:57:50.883 [TestNG-PoolService-2] Hooks - Execution started for scenario:Task2- Search functionality
+[INFO ] 2025-01-03 23:57:50.883 [TestNG-PoolService-1] Hooks - Execution started for scenario:Task1-Access icons-My List, History and Nearby
+[INFO ] 2025-01-03 23:57:50.883 [TestNG-PoolService-3] Hooks - Execution started for scenario:Task3- Toggle off all settings
+[INFO ] 2025-01-03 23:58:03.841 [TestNG-PoolService-3] Hooks - Execution completed for scenario:Task3- Toggle off all settings,Status:Fail
+[INFO ] 2025-01-03 23:58:03.861 [TestNG-PoolService-2] Hooks - Execution completed for scenario:Task2- Search functionality,Status:Fail
+[INFO ] 2025-01-03 23:58:11.239 [TestNG-PoolService-1] BasePage - Located Element, Locator Used : [[AndroidDriver:  on ANDROID (0ec11882-e2bc-40b6-89ba-7b973a58f387)] -> xpath: //android.widget.Button[@text='OK']]
+[INFO ] 2025-01-03 23:58:11.406 [TestNG-PoolService-1] BasePage - Clicked Element, Locator Used : By.xpath: //android.widget.Button[@text='OK']
+[INFO ] 2025-01-03 23:58:13.927 [TestNG-PoolService-1] BasePage - Located Element, Locator Used : [[AndroidDriver:  on ANDROID (0ec11882-e2bc-40b6-89ba-7b973a58f387)] -> xpath: (//android.widget.ImageView[@resource-id='org.wikipedia.alpha:id/icon'])[2]]
+[INFO ] 2025-01-03 23:58:14.015 [TestNG-PoolService-1] BasePage - Clicked Element, Locator Used : By.xpath: (//android.widget.ImageView[@resource-id='org.wikipedia.alpha:id/icon'])[2]
+[INFO ] 2025-01-03 23:58:17.141 [TestNG-PoolService-1] BasePage - Located Element, Locator Used : [[AndroidDriver:  on ANDROID (0ec11882-e2bc-40b6-89ba-7b973a58f387)] -> xpath: (//android.widget.ImageView[@resource-id='org.wikipedia.alpha:id/icon'])[3]]
+[INFO ] 2025-01-03 23:58:17.272 [TestNG-PoolService-1] BasePage - Clicked Element, Locator Used : By.xpath: (//android.widget.ImageView[@resource-id='org.wikipedia.alpha:id/icon'])[3]
+[INFO ] 2025-01-03 23:58:20.503 [TestNG-PoolService-1] BasePage - Located Element, Locator Used : [[AndroidDriver:  on ANDROID (0ec11882-e2bc-40b6-89ba-7b973a58f387)] -> xpath: (//android.widget.ImageView[@resource-id='org.wikipedia.alpha:id/icon'])[4]]
+[INFO ] 2025-01-03 23:58:20.625 [TestNG-PoolService-1] BasePage - Clicked Element, Locator Used : By.xpath: (//android.widget.ImageView[@resource-id='org.wikipedia.alpha:id/icon'])[4]
+[INFO ] 2025-01-03 23:58:23.780 [TestNG-PoolService-1] BasePage - Located Element, Locator Used : [[AndroidDriver:  on ANDROID (0ec11882-e2bc-40b6-89ba-7b973a58f387)] -> xpath: (//android.widget.ImageView[@resource-id='org.wikipedia.alpha:id/icon'])[1]]
+[INFO ] 2025-01-03 23:58:23.879 [TestNG-PoolService-1] BasePage - Clicked Element, Locator Used : By.xpath: (//android.widget.ImageView[@resource-id='org.wikipedia.alpha:id/icon'])[1]
+[INFO ] 2025-01-03 23:58:34.241 [TestNG-PoolService-1] Hooks - Execution completed for scenario:Task1-Access icons-My List, History and Nearby,Status:Fail
+[INFO ] 2025-01-03 23:58:34.250 [main] Hooks - Test Execution Finished
+[INFO ] 2025-01-03 23:58:34.250 [main] Hooks - ---------***********************************--------------
+[INFO ] 2025-01-03 23:59:13.852 [main] Hooks - ---------*************Test Execution Started**********************--------------
+[INFO ] 2025-01-03 23:59:14.020 [main] Hooks - Execution started for scenario:Task1-Access icons-My List, History and Nearby
+[INFO ] 2025-01-03 23:59:27.806 [main] BasePage - Located Element, Locator Used : [[AndroidDriver:  on ANDROID (06c62c5b-2e57-4aa4-a5e2-bfac07f3c0ef)] -> xpath: //android.widget.Button[@text='OK']]
+[INFO ] 2025-01-03 23:59:27.965 [main] BasePage - Clicked Element, Locator Used : By.xpath: //android.widget.Button[@text='OK']
+[INFO ] 2025-01-03 23:59:30.091 [main] BasePage - Located Element, Locator Used : [[AndroidDriver:  on ANDROID (06c62c5b-2e57-4aa4-a5e2-bfac07f3c0ef)] -> xpath: (//android.widget.ImageView[@resource-id='org.wikipedia.alpha:id/icon'])[2]]
+[INFO ] 2025-01-03 23:59:30.187 [main] BasePage - Clicked Element, Locator Used : By.xpath: (//android.widget.ImageView[@resource-id='org.wikipedia.alpha:id/icon'])[2]
+[INFO ] 2025-01-03 23:59:33.290 [main] BasePage - Located Element, Locator Used : [[AndroidDriver:  on ANDROID (06c62c5b-2e57-4aa4-a5e2-bfac07f3c0ef)] -> xpath: (//android.widget.ImageView[@resource-id='org.wikipedia.alpha:id/icon'])[3]]
+[INFO ] 2025-01-03 23:59:33.402 [main] BasePage - Clicked Element, Locator Used : By.xpath: (//android.widget.ImageView[@resource-id='org.wikipedia.alpha:id/icon'])[3]
+[INFO ] 2025-01-03 23:59:36.487 [main] BasePage - Located Element, Locator Used : [[AndroidDriver:  on ANDROID (06c62c5b-2e57-4aa4-a5e2-bfac07f3c0ef)] -> xpath: (//android.widget.ImageView[@resource-id='org.wikipedia.alpha:id/icon'])[4]]
+[INFO ] 2025-01-03 23:59:36.592 [main] BasePage - Clicked Element, Locator Used : By.xpath: (//android.widget.ImageView[@resource-id='org.wikipedia.alpha:id/icon'])[4]
+[INFO ] 2025-01-03 23:59:39.697 [main] BasePage - Located Element, Locator Used : [[AndroidDriver:  on ANDROID (06c62c5b-2e57-4aa4-a5e2-bfac07f3c0ef)] -> xpath: (//android.widget.ImageView[@resource-id='org.wikipedia.alpha:id/icon'])[1]]
+[INFO ] 2025-01-03 23:59:39.807 [main] BasePage - Clicked Element, Locator Used : By.xpath: (//android.widget.ImageView[@resource-id='org.wikipedia.alpha:id/icon'])[1]
+[INFO ] 2025-01-03 23:59:49.890 [main] Hooks - Execution completed for scenario:Task1-Access icons-My List, History and Nearby,Status:Fail
+[INFO ] 2025-01-03 23:59:49.907 [main] Hooks - Execution started for scenario:Task2- Search functionality
+[INFO ] 2025-01-04 00:00:02.990 [main] BasePage - Located Element, Locator Used : [[AndroidDriver:  on ANDROID (838f53fb-65da-4c3a-a707-1b93be1b241a)] -> xpath: //android.widget.Button[@text='OK']]
+[INFO ] 2025-01-04 00:00:03.147 [main] BasePage - Clicked Element, Locator Used : By.xpath: //android.widget.Button[@text='OK']
+[INFO ] 2025-01-04 00:00:03.742 [main] BasePage - Located Element, Locator Used : [[AndroidDriver:  on ANDROID (838f53fb-65da-4c3a-a707-1b93be1b241a)] -> xpath: //android.view.View[@resource-id='org.wikipedia.alpha:id/fragment_feed_header']]
+[INFO ] 2025-01-04 00:00:03.907 [main] BasePage - Clicked Element, Locator Used : By.xpath: //android.view.View[@resource-id='org.wikipedia.alpha:id/fragment_feed_header']
+[INFO ] 2025-01-04 00:00:05.053 [main] BasePage - Located Element, Locator Used : [[AndroidDriver:  on ANDROID (838f53fb-65da-4c3a-a707-1b93be1b241a)] -> id: org.wikipedia.alpha:id/search_src_text]
+[INFO ] 2025-01-04 00:00:06.989 [main] BasePage - Retrieve Multiple Elements, Locator Used : By.xpath: //android.widget.TextView[contains(@text, 'New York')]
+[INFO ] 2025-01-04 00:00:09.357 [main] BasePage - Located Element, Locator Used : [[AndroidDriver:  on ANDROID (838f53fb-65da-4c3a-a707-1b93be1b241a)] -> id: org.wikipedia.alpha:id/search_close_btn]
+[INFO ] 2025-01-04 00:00:11.053 [main] BasePage - Located Element, Locator Used : [[AndroidDriver:  on ANDROID (838f53fb-65da-4c3a-a707-1b93be1b241a)] -> xpath: //android.widget.TextView[@text='Search Wikipedia']]
+[INFO ] 2025-01-04 00:00:12.815 [main] Hooks - Execution completed for scenario:Task2- Search functionality,Status:Pass
+[INFO ] 2025-01-04 00:00:12.825 [main] Hooks - Execution started for scenario:Task3- Toggle off all settings
+[INFO ] 2025-01-04 00:00:26.168 [main] BasePage - Located Element, Locator Used : [[AndroidDriver:  on ANDROID (fb12f7a3-015c-40cb-8994-f854d32723d5)] -> xpath: //android.widget.Button[@text='OK']]
+[INFO ] 2025-01-04 00:00:26.317 [main] BasePage - Clicked Element, Locator Used : By.xpath: //android.widget.Button[@text='OK']
+[INFO ] 2025-01-04 00:00:26.918 [main] BasePage - Located Element, Locator Used : [[AndroidDriver:  on ANDROID (fb12f7a3-015c-40cb-8994-f854d32723d5)] -> id: org.wikipedia.alpha:id/menu_overflow_button]
+[INFO ] 2025-01-04 00:00:27.128 [main] BasePage - Clicked Element, Locator Used : By.id: org.wikipedia.alpha:id/menu_overflow_button
+[INFO ] 2025-01-04 00:00:27.643 [main] BasePage - Located Element, Locator Used : [[AndroidDriver:  on ANDROID (fb12f7a3-015c-40cb-8994-f854d32723d5)] -> xpath: //android.widget.TextView[@text='Settings']]
+[INFO ] 2025-01-04 00:00:28.288 [main] BasePage - Clicked Element, Locator Used : By.xpath: //android.widget.TextView[@text='Settings']
+[INFO ] 2025-01-04 00:00:30.191 [main] BasePage - Located Element, Locator Used : [[AndroidDriver:  on ANDROID (fb12f7a3-015c-40cb-8994-f854d32723d5)] -> xpath: //android.widget.TextView[@text='Show images']/../..//android.widget.Switch]
+[INFO ] 2025-01-04 00:00:30.286 [main] BasePage - Clicked Element, Locator Used : By.xpath: //android.widget.TextView[@text='Show images']/../..//android.widget.Switch
+[INFO ] 2025-01-04 00:00:30.544 [main] BasePage - Located Element, Locator Used : [[AndroidDriver:  on ANDROID (fb12f7a3-015c-40cb-8994-f854d32723d5)] -> xpath: //android.widget.TextView[@text='Show images']/../..//android.widget.Switch]
+[INFO ] 2025-01-04 00:00:31.082 [main] BasePage - Located Element, Locator Used : [[AndroidDriver:  on ANDROID (fb12f7a3-015c-40cb-8994-f854d32723d5)] -> xpath: //android.widget.TextView[@text='Show link previews']/../..//android.widget.Switch]
+[INFO ] 2025-01-04 00:00:31.207 [main] BasePage - Clicked Element, Locator Used : By.xpath: //android.widget.TextView[@text='Show link previews']/../..//android.widget.Switch
+[INFO ] 2025-01-04 00:00:31.423 [main] BasePage - Located Element, Locator Used : [[AndroidDriver:  on ANDROID (fb12f7a3-015c-40cb-8994-f854d32723d5)] -> xpath: //android.widget.TextView[@text='Show link previews']/../..//android.widget.Switch]
+[INFO ] 2025-01-04 00:00:32.012 [main] BasePage - Located Element, Locator Used : [[AndroidDriver:  on ANDROID (fb12f7a3-015c-40cb-8994-f854d32723d5)] -> xpath: //android.widget.TextView[@text='Send usage reports']/../..//android.widget.Switch]
+[INFO ] 2025-01-04 00:00:32.157 [main] BasePage - Clicked Element, Locator Used : By.xpath: //android.widget.TextView[@text='Send usage reports']/../..//android.widget.Switch
+[INFO ] 2025-01-04 00:00:32.933 [main] BasePage - Located Element, Locator Used : [[AndroidDriver:  on ANDROID (fb12f7a3-015c-40cb-8994-f854d32723d5)] -> xpath: //android.widget.TextView[@text='Send usage reports']/../..//android.widget.Switch]
+[INFO ] 2025-01-04 00:00:33.104 [main] BasePage - Located Element, Locator Used : [[AndroidDriver:  on ANDROID (fb12f7a3-015c-40cb-8994-f854d32723d5)] -> xpath: //android.widget.TextView[@text='Send crash reports']/../..//android.widget.Switch]
+[INFO ] 2025-01-04 00:00:33.205 [main] BasePage - Clicked Element, Locator Used : By.xpath: //android.widget.TextView[@text='Send crash reports']/../..//android.widget.Switch
+[INFO ] 2025-01-04 00:00:33.467 [main] BasePage - Located Element, Locator Used : [[AndroidDriver:  on ANDROID (fb12f7a3-015c-40cb-8994-f854d32723d5)] -> xpath: //android.widget.TextView[@text='Send crash reports']/../..//android.widget.Switch]
+[INFO ] 2025-01-04 00:00:33.874 [main] BasePage - Located Element, Locator Used : [[AndroidDriver:  on ANDROID (fb12f7a3-015c-40cb-8994-f854d32723d5)] -> accessibility id: Navigate up]
+[INFO ] 2025-01-04 00:00:33.973 [main] BasePage - Clicked Element, Locator Used : AppiumBy.accessibilityId: Navigate up
+[INFO ] 2025-01-04 00:00:35.433 [main] BasePage - Located Element, Locator Used : [[AndroidDriver:  on ANDROID (fb12f7a3-015c-40cb-8994-f854d32723d5)] -> xpath: //android.widget.TextView[@text='Search Wikipedia']]
+[INFO ] 2025-01-04 00:00:36.320 [main] Hooks - Execution completed for scenario:Task3- Toggle off all settings,Status:Pass
+[INFO ] 2025-01-04 00:00:36.328 [main] Hooks - Test Execution Finished
+[INFO ] 2025-01-04 00:00:36.328 [main] Hooks - ---------***********************************--------------
+[INFO ] 2025-01-04 00:03:01.490 [main] Hooks - ---------*************Test Execution Started**********************--------------
+[INFO ] 2025-01-04 00:03:01.673 [main] Hooks - Execution started for scenario:Task1-Access icons-My List, History and Nearby
+[INFO ] 2025-01-04 00:03:15.308 [main] BasePage - Located Element, Locator Used : [[AndroidDriver:  on ANDROID (f38414b3-0a23-4eea-afec-3f95d2d31e90)] -> xpath: //android.widget.Button[@text='OK']]
+[INFO ] 2025-01-04 00:03:15.444 [main] BasePage - Clicked Element, Locator Used : By.xpath: //android.widget.Button[@text='OK']
+[INFO ] 2025-01-04 00:03:17.219 [main] BasePage - Located Element, Locator Used : [[AndroidDriver:  on ANDROID (f38414b3-0a23-4eea-afec-3f95d2d31e90)] -> xpath: (//android.widget.ImageView[@resource-id='org.wikipedia.alpha:id/icon'])[2]]
+[INFO ] 2025-01-04 00:03:17.301 [main] BasePage - Clicked Element, Locator Used : By.xpath: (//android.widget.ImageView[@resource-id='org.wikipedia.alpha:id/icon'])[2]
+[INFO ] 2025-01-04 00:03:20.401 [main] BasePage - Located Element, Locator Used : [[AndroidDriver:  on ANDROID (f38414b3-0a23-4eea-afec-3f95d2d31e90)] -> xpath: (//android.widget.ImageView[@resource-id='org.wikipedia.alpha:id/icon'])[3]]
+[INFO ] 2025-01-04 00:03:20.498 [main] BasePage - Clicked Element, Locator Used : By.xpath: (//android.widget.ImageView[@resource-id='org.wikipedia.alpha:id/icon'])[3]
+[INFO ] 2025-01-04 00:03:23.588 [main] BasePage - Located Element, Locator Used : [[AndroidDriver:  on ANDROID (f38414b3-0a23-4eea-afec-3f95d2d31e90)] -> xpath: (//android.widget.ImageView[@resource-id='org.wikipedia.alpha:id/icon'])[4]]
+[INFO ] 2025-01-04 00:03:23.694 [main] BasePage - Clicked Element, Locator Used : By.xpath: (//android.widget.ImageView[@resource-id='org.wikipedia.alpha:id/icon'])[4]
+[INFO ] 2025-01-04 00:03:26.793 [main] BasePage - Located Element, Locator Used : [[AndroidDriver:  on ANDROID (f38414b3-0a23-4eea-afec-3f95d2d31e90)] -> xpath: (//android.widget.ImageView[@resource-id='org.wikipedia.alpha:id/icon'])[1]]
+[INFO ] 2025-01-04 00:03:26.900 [main] BasePage - Clicked Element, Locator Used : By.xpath: (//android.widget.ImageView[@resource-id='org.wikipedia.alpha:id/icon'])[1]
+[INFO ] 2025-01-04 00:03:31.002 [main] BasePage - Located Element, Locator Used : [[AndroidDriver:  on ANDROID (f38414b3-0a23-4eea-afec-3f95d2d31e90)] -> xpath: //android.widget.TextView[@text='In the news']]
+[INFO ] 2025-01-04 00:03:32.252 [main] Hooks - Execution completed for scenario:Task1-Access icons-My List, History and Nearby,Status:Pass
+[INFO ] 2025-01-04 00:03:32.266 [main] Hooks - Execution started for scenario:Task2- Search functionality
+[INFO ] 2025-01-04 00:03:44.572 [main] BasePage - Located Element, Locator Used : [[AndroidDriver:  on ANDROID (2d1b7bf3-a45b-4a6f-84b0-6ee4518f07d9)] -> xpath: //android.widget.Button[@text='OK']]
+[INFO ] 2025-01-04 00:03:44.836 [main] BasePage - Clicked Element, Locator Used : By.xpath: //android.widget.Button[@text='OK']
+[INFO ] 2025-01-04 00:03:45.671 [main] BasePage - Located Element, Locator Used : [[AndroidDriver:  on ANDROID (2d1b7bf3-a45b-4a6f-84b0-6ee4518f07d9)] -> xpath: //android.view.View[@resource-id='org.wikipedia.alpha:id/fragment_feed_header']]
+[INFO ] 2025-01-04 00:03:45.780 [main] BasePage - Clicked Element, Locator Used : By.xpath: //android.view.View[@resource-id='org.wikipedia.alpha:id/fragment_feed_header']
+[INFO ] 2025-01-04 00:03:46.969 [main] BasePage - Located Element, Locator Used : [[AndroidDriver:  on ANDROID (2d1b7bf3-a45b-4a6f-84b0-6ee4518f07d9)] -> id: org.wikipedia.alpha:id/search_src_text]
+[INFO ] 2025-01-04 00:03:48.204 [main] BasePage - Retrieve Multiple Elements, Locator Used : By.xpath: //android.widget.TextView[contains(@text, 'New York')]
+[INFO ] 2025-01-04 00:03:50.512 [main] BasePage - Located Element, Locator Used : [[AndroidDriver:  on ANDROID (2d1b7bf3-a45b-4a6f-84b0-6ee4518f07d9)] -> id: org.wikipedia.alpha:id/search_close_btn]
+[INFO ] 2025-01-04 00:03:52.253 [main] BasePage - Located Element, Locator Used : [[AndroidDriver:  on ANDROID (2d1b7bf3-a45b-4a6f-84b0-6ee4518f07d9)] -> xpath: //android.widget.TextView[@text='Search Wikipedia']]
+[INFO ] 2025-01-04 00:03:53.426 [main] Hooks - Execution completed for scenario:Task2- Search functionality,Status:Pass
+[INFO ] 2025-01-04 00:03:53.436 [main] Hooks - Execution started for scenario:Task3- Toggle off all settings
+[INFO ] 2025-01-04 00:04:06.228 [main] BasePage - Located Element, Locator Used : [[AndroidDriver:  on ANDROID (a6dfd7a4-3c1f-464f-919e-0e8e2e89d6df)] -> xpath: //android.widget.Button[@text='OK']]
+[INFO ] 2025-01-04 00:04:06.387 [main] BasePage - Clicked Element, Locator Used : By.xpath: //android.widget.Button[@text='OK']
+[INFO ] 2025-01-04 00:04:06.791 [main] BasePage - Located Element, Locator Used : [[AndroidDriver:  on ANDROID (a6dfd7a4-3c1f-464f-919e-0e8e2e89d6df)] -> id: org.wikipedia.alpha:id/menu_overflow_button]
+[INFO ] 2025-01-04 00:04:07.156 [main] BasePage - Clicked Element, Locator Used : By.id: org.wikipedia.alpha:id/menu_overflow_button
+[INFO ] 2025-01-04 00:04:08.386 [main] BasePage - Located Element, Locator Used : [[AndroidDriver:  on ANDROID (a6dfd7a4-3c1f-464f-919e-0e8e2e89d6df)] -> xpath: //android.widget.TextView[@text='Settings']]
+[INFO ] 2025-01-04 00:04:08.503 [main] BasePage - Clicked Element, Locator Used : By.xpath: //android.widget.TextView[@text='Settings']
+[INFO ] 2025-01-04 00:04:10.310 [main] BasePage - Located Element, Locator Used : [[AndroidDriver:  on ANDROID (a6dfd7a4-3c1f-464f-919e-0e8e2e89d6df)] -> xpath: //android.widget.TextView[@text='Show images']/../..//android.widget.Switch]
+[INFO ] 2025-01-04 00:04:10.408 [main] BasePage - Clicked Element, Locator Used : By.xpath: //android.widget.TextView[@text='Show images']/../..//android.widget.Switch
+[INFO ] 2025-01-04 00:04:10.675 [main] BasePage - Located Element, Locator Used : [[AndroidDriver:  on ANDROID (a6dfd7a4-3c1f-464f-919e-0e8e2e89d6df)] -> xpath: //android.widget.TextView[@text='Show images']/../..//android.widget.Switch]
+[INFO ] 2025-01-04 00:04:11.192 [main] BasePage - Located Element, Locator Used : [[AndroidDriver:  on ANDROID (a6dfd7a4-3c1f-464f-919e-0e8e2e89d6df)] -> xpath: //android.widget.TextView[@text='Show link previews']/../..//android.widget.Switch]
+[INFO ] 2025-01-04 00:04:11.311 [main] BasePage - Clicked Element, Locator Used : By.xpath: //android.widget.TextView[@text='Show link previews']/../..//android.widget.Switch
+[INFO ] 2025-01-04 00:04:11.554 [main] BasePage - Located Element, Locator Used : [[AndroidDriver:  on ANDROID (a6dfd7a4-3c1f-464f-919e-0e8e2e89d6df)] -> xpath: //android.widget.TextView[@text='Show link previews']/../..//android.widget.Switch]
+[INFO ] 2025-01-04 00:04:12.118 [main] BasePage - Located Element, Locator Used : [[AndroidDriver:  on ANDROID (a6dfd7a4-3c1f-464f-919e-0e8e2e89d6df)] -> xpath: //android.widget.TextView[@text='Send usage reports']/../..//android.widget.Switch]
+[INFO ] 2025-01-04 00:04:12.276 [main] BasePage - Clicked Element, Locator Used : By.xpath: //android.widget.TextView[@text='Send usage reports']/../..//android.widget.Switch
+[INFO ] 2025-01-04 00:04:12.512 [main] BasePage - Located Element, Locator Used : [[AndroidDriver:  on ANDROID (a6dfd7a4-3c1f-464f-919e-0e8e2e89d6df)] -> xpath: //android.widget.TextView[@text='Send usage reports']/../..//android.widget.Switch]
+[INFO ] 2025-01-04 00:04:13.040 [main] BasePage - Located Element, Locator Used : [[AndroidDriver:  on ANDROID (a6dfd7a4-3c1f-464f-919e-0e8e2e89d6df)] -> xpath: //android.widget.TextView[@text='Send crash reports']/../..//android.widget.Switch]
+[INFO ] 2025-01-04 00:04:13.136 [main] BasePage - Clicked Element, Locator Used : By.xpath: //android.widget.TextView[@text='Send crash reports']/../..//android.widget.Switch
+[INFO ] 2025-01-04 00:04:13.421 [main] BasePage - Located Element, Locator Used : [[AndroidDriver:  on ANDROID (a6dfd7a4-3c1f-464f-919e-0e8e2e89d6df)] -> xpath: //android.widget.TextView[@text='Send crash reports']/../..//android.widget.Switch]
+[INFO ] 2025-01-04 00:04:13.842 [main] BasePage - Located Element, Locator Used : [[AndroidDriver:  on ANDROID (a6dfd7a4-3c1f-464f-919e-0e8e2e89d6df)] -> accessibility id: Navigate up]
+[INFO ] 2025-01-04 00:04:13.953 [main] BasePage - Clicked Element, Locator Used : AppiumBy.accessibilityId: Navigate up
+[INFO ] 2025-01-04 00:04:15.354 [main] BasePage - Located Element, Locator Used : [[AndroidDriver:  on ANDROID (a6dfd7a4-3c1f-464f-919e-0e8e2e89d6df)] -> xpath: //android.widget.TextView[@text='Search Wikipedia']]
+[INFO ] 2025-01-04 00:04:16.241 [main] Hooks - Execution completed for scenario:Task3- Toggle off all settings,Status:Pass
+[INFO ] 2025-01-04 00:04:16.246 [main] Hooks - Test Execution Finished
+[INFO ] 2025-01-04 00:04:16.246 [main] Hooks - ---------***********************************--------------
