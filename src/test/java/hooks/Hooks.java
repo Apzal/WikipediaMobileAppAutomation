@@ -4,6 +4,8 @@ import base.DriverContext;
 import com.aventstack.extentreports.MediaEntityBuilder;
 import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter;
+import io.appium.java_client.service.local.AppiumDriverLocalService;
+import io.appium.java_client.service.local.AppiumServiceBuilder;
 import io.cucumber.java.*;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -15,8 +17,9 @@ import java.util.Base64;
 public class Hooks {
 
     private final DriverContext driverContext;
-
+    public static AppiumDriverLocalService service;
     static Logger logger = LogManager.getLogger(Hooks.class);
+
     public Hooks(DriverContext driverContext) {
         this.driverContext = driverContext;
     }
@@ -24,6 +27,10 @@ public class Hooks {
     @BeforeAll
     public static void beforeAll(){
         logger.info("---------*************Test Execution Started**********************--------------");
+        service = new AppiumServiceBuilder()
+                .withIPAddress("127.0.0.1").usingPort(4723)
+                .build();
+        service.start();
     }
 
     @Before
@@ -44,6 +51,9 @@ public class Hooks {
 
     @AfterAll
     public static void afterAll(){
+        if (service != null) {
+            service.stop();
+        }
         logger.info("Test Execution Finished");
         logger.info("---------***********************************--------------");
     }

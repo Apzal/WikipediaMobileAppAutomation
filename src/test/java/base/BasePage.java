@@ -2,17 +2,11 @@ package base;
 
 import com.google.common.collect.ImmutableMap;
 import io.appium.java_client.AppiumBy;
-import io.appium.java_client.TouchAction;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.options.UiAutomator2Options;
-import io.appium.java_client.service.local.AppiumServiceBuilder;
-import io.appium.java_client.touch.TapOptions;
-import io.appium.java_client.touch.WaitOptions;
-import io.appium.java_client.touch.offset.ElementOption;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.*;
-import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import utilities.ReadPropertyFile;
@@ -22,9 +16,6 @@ import java.net.URISyntaxException;
 import java.time.Duration;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
-
-import static io.appium.java_client.touch.WaitOptions.waitOptions;
-import static java.time.Duration.ofMillis;
 
 public class BasePage extends PageInstance {
     private final ReadPropertyFile readProperty;
@@ -52,9 +43,6 @@ public class BasePage extends PageInstance {
     }
 
     public void launchApp() throws URISyntaxException, MalformedURLException {
-        this.driverContext.service = new AppiumServiceBuilder()
-                .withIPAddress("127.0.0.1").usingPort(4723).build();
-        this.driverContext.service.start();
         UiAutomator2Options options = new UiAutomator2Options();
         options.setDeviceName(deviceName);
         options.setApp(appPath);
