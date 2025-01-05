@@ -35,7 +35,7 @@ public class BasePage extends PageInstance {
     }
 
     private void setConfigurations() {
-        appPath = System.getProperty("user.dir") + "\\src\\test\\resources\\apks\\"+readProperty.readProperty("apk");
+        appPath = System.getProperty("user.dir") + "/src/test/resources/apks/"+readProperty.readProperty("apk");
         deviceName = readProperty.readProperty("deviceName");
         appPackage = readProperty.readProperty("appPackage");
         appActivity = readProperty.readProperty("appActivity");
