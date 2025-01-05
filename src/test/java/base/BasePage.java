@@ -36,9 +36,9 @@ public class BasePage extends PageInstance {
 
     private void setConfigurations() {
         appPath = System.getProperty("user.dir") + "\\src\\test\\resources\\apks\\"+readProperty.readProperty("apk");
-        deviceName = System.getProperty("deviceName");
-        appPackage = System.getProperty("appPackage");
-        appActivity = System.getProperty("appActivity");
+        deviceName = readProperty.readProperty("deviceName");
+        appPackage = readProperty.readProperty("appPackage");
+        appActivity = readProperty.readProperty("appActivity");
         defaultTimeOutInSeconds = Integer.parseInt(readProperty.readProperty("defaultTimeOutInSeconds"));
     }
 
@@ -50,6 +50,7 @@ public class BasePage extends PageInstance {
         options.setAppActivity(appActivity);
         options.setPlatformName("Android");
         options.setAutomationName("UIAutomator2");
+        options.autoGrantPermissions();
         this.driverContext.driver = new AndroidDriver(
                 new URI("http://127.0.0.1:4723/").toURL(), options);
     }
